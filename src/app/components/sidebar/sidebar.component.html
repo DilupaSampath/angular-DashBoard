@@ -1,0 +1,26 @@
+<div > 
+<div class="logo" >
+    <a href="#" class="simple-text" style="color: gainsboro">
+        <div class="logo-img">
+            <img src="/assets/img/adminMain.jpeg"/>
+        </div>
+       Admin Panel
+    </a>
+</div>
+<!-- .side-nav li.active {
+    background-color: rgba(0, 0, 0, 0.05);
+} -->
+<div class="sidebar-wrapper" >
+    <div class="nav-container" >
+        <ul class="nav" >
+            <li routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact: true}"  *ngFor="let menuItem of menuItems" class="{{menuItem.class}}">
+                <a  [routerLink]="[menuItem.path]">
+                    <i class="material-icons">{{menuItem.icon}}</i>
+                    <p style="color:lightgray">{{menuItem.title}}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>

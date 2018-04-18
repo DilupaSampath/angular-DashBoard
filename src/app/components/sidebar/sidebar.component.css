@@ -1,0 +1,8 @@
+.logo{
+    background-image: url('/assets/img/sideBarBackground.png');
+    color: gainsboro;
+    /* background-image: url("paper.gif"); */
+}
+.sidebar-wrapper{
+background-image: url('/assets/img/sideBarBackground.png');
+}

@@ -1,0 +1,7 @@
+.dropdown-menu > li > a:hover {
+    background-color: #507DBC;
+    background-image: none;
+}
+.collapse navbar-collapse{
+color: slategray;
+}
